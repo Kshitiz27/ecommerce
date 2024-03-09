@@ -43,7 +43,7 @@ public class UserService {
         return null;
     }
 
-    public void deleteProduct(Long productId){
-        userRepo.deleteById(productId);
+    public void deleteUser(Long userId){
+        userRepo.deleteById(userId);
     }
 }
